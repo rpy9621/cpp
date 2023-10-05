@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int arr[5],i,j,temp;
+   cout<<"Enter 5 array elements:\n";
+   for(i=0;i<5;i++){
+       cin>>arr[i];
+   }
+//   cout<<"Array elements is:\n";
+//   cout<<arr[i]<<" ";
+   for(i=0;i<5;i++){
+       for(j=i+1;j<5;j++){
+           if(arr[i]>arr[j]){
+               temp=arr[i];
+               arr[i]=arr[j];
+               arr[j]=temp;
+           }
+       }
+   }
+   cout<<"Sorted array elements is : ";
+   for(i=0;i<5;i++){
+       cout<<arr[i]<<" ";
+   }
+    return 0;
+}
