@@ -1,5 +1,6 @@
 // Sum of array elements program
 // C++ code to find sum of array element's
+// Sum of array element 
 #include <iostream>
 using namespace std;
 
