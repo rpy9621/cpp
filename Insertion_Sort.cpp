@@ -1,4 +1,4 @@
-// Inser an element from unsorted array to it's current position in sorted array
+// Insert an element from unsorted array to it's current position in sorted array
 // It start sorting from 2 element
 // It break the array into two parts like sorted or unosorted
 #include<iostream>
